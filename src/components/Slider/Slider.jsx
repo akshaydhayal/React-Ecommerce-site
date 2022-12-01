@@ -31,9 +31,9 @@ const Slider = () => {
   
 
   const images = [
-    "https://wallpapercave.com/wp/wp7477977.jpg",
-    "https://wallpapercave.com/wp/wp7478024.jpg",
-    "https://wallpapercave.com/wp/wp7478006.jpg",
+    "https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600",
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);

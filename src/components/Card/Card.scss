@@ -1,0 +1,38 @@
+.card{
+    // border:1px solid red;
+    // margin: 0px 100px;
+.card-top{
+    position: relative;
+    .card-season{
+        // border:1px solid red;
+        position: absolute;
+        top:3px;
+        left:3px;
+        height: 18px;
+        color:teal;
+        background-color: white;
+        font-size: 13px;
+    }
+}
+
+    .card-bottom{
+        .card-title{
+            font-size: 13px;
+        }
+        .card-price{
+            margin: 2px 3px;
+            display: flex;
+            font-size: 12px;
+            font-weight: 600;
+            color: gray;
+            gap: 20px;
+            letter-spacing: 1px;
+            .old-price{
+                text-decoration: line-through;
+            }
+            .new-price{
+                color:black
+            }
+        }
+    }
+}

@@ -1,2 +1,12 @@
-Keep images, and assets in asset folder and put assets ib public folder
+1. Keep images, and assets in asset folder and put assets ib public folder
 Syntax to use img tag : <img src="assets/Flipkart-Logo.png" height={80} width={200}/>
+        
+2. <Link to={`/product/${item.id}`}>  for using links with variables in Link
+
+3. using map to itertae over array i.e named data here, key is important in maps, item is passed
+    to Card component in each iteration
+    {data.map((item)=>(
+        <Card item={item} key={item.id}/>
+    ))}
+
+4.
