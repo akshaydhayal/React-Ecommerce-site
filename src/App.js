@@ -43,7 +43,6 @@ function App() {
     <div className="App">
       <RouterProvider router={router} />
       <header className="App-header">
-        <h1>Hello World!!</h1>
       </header>
     </div>
   );

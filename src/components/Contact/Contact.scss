@@ -1,0 +1,28 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(197, 51%, 43%);
+    gap:40px;
+    height: 55px;
+    .left{
+        h4{
+            color:white;
+        }
+    }
+    .center{
+        input{
+            height: 24px;
+        }
+        button{
+            background-color: black;
+            color: white;
+            height: 30px;
+            border-radius: 5%;
+        }
+    }
+    .right{
+display: flex;
+gap:3px;
+}
+}
