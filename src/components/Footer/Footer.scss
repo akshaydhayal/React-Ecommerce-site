@@ -1,0 +1,45 @@
+.footer {
+    .head{
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+  .footer-top {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin: 0px 50px;
+
+    .section1,.section2,.section3,.section4{
+      flex:1;
+      // border: 1px solid red;
+    }
+    .section1 {
+      .footer-category {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+    .section2{
+        .footer-links{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+    }
+    .section3,.section4{
+       text-align: justify;          //for making paragraph full lines
+    }
+    
+  }
+
+  .footer-bottom{
+    display: flex;
+    margin:20px 60px;
+    justify-content: space-between;
+    align-items: center;
+    // border: 1px solid red;
+
+  }
+}

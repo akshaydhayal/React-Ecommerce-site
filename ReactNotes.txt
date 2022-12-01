@@ -1,0 +1,2 @@
+Keep images, and assets in asset folder and put assets ib public folder
+Syntax to use img tag : <img src="assets/Flipkart-Logo.png" height={80} width={200}/>
