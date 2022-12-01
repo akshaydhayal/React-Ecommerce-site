@@ -10,3 +10,20 @@ Syntax to use img tag : <img src="assets/Flipkart-Logo.png" height={80} width={2
     ))}
 
 4.
+
+
+
+
+
+Things before hackathon
+1. Grid similar categoroies section using flex box
+2. Form pages 
+
+
+
+
+
+Things to add more:
+1. Change top 2nd image in featured products on hovering on first image
+
+2. check overflow hidden
